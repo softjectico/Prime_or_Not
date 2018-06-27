@@ -1,2 +1,2 @@
 # Prime_or_Not
-Number is prime or not
+C Program to check Number is prime or not
