@@ -12,7 +12,7 @@ void main()
 	  if(n%i==0)
 	  {
 		printf("No %d is not prime\n",n);
-		goto TOP;
+		goto TOP;. // works in a loop
 
 	  }
 	}
@@ -20,9 +20,9 @@ void main()
 	printf("\nTo repeat the program repeat press 1 or press any key to exit : \t");
 	scanf("%d",&q);
 	if(q==1)
-	{
+	
 		goto TOP;
-	}
+	
 
 	getch();
 }
